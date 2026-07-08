@@ -1,0 +1,1187 @@
+#greeting img.icon {
+  display: none;
+}
+
+.comment div.icon {
+  box-shadow: none !important;
+  border: 2px solid #ddca9f;
+}
+
+#outer,
+ol.index.group,
+.listbox .index {
+  background: url("https://64.media.tumblr.com/36fcc4454ed9e4612ac0efef61e9088c/32044804a270054e-43/s1280x1920/ec7a61ddaa9b64f26d5fd5947036ca65dfe78b94.jpg");
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  color: #473b35;
+  font-family: Garamond, "Book Antiqua", Palatino, serif !important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(0, 0, 0, 0.2);
+  color: #473b35;
+  border: 1px solid #000;
+}
+
+textarea {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#header {
+  background-image: url("https://64.media.tumblr.com/dbb0c21566f4e5c43b75e267b0e493a9/d2a8fe794d22419b-e9/s1280x1920/58cbcc405a79c3a078ebb24f9597cba2281a64ca.png");
+  background-size: cover;
+  background-position: 50% 30%;
+}
+
+#header .logo,
+#header .heading sup {
+  display: none;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#header h1.heading a::before {
+  display: inline-block;
+  position: relative;
+  width: 374px;
+  height: 160px;
+  content: " ";
+  background-image: url("https://64.media.tumblr.com/b23354357c821a5e6bc8358522021874/d62343d11763a2d3-49/s1280x1920/d9c421b04c598bf3387cab083c14106628f302bf.png");
+  background-size: 374px 160px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+#header .heading {
+  height: 13em;
+}
+
+#header .primary {
+  background: url("https://64.media.tumblr.com/88bccc6ca9e8adde129f8b46ed789e30/46b4377713c9cfea-a8/s100x200/b905c90e15f6fc4a78b813561a35c4a15d7feb07.png");
+  background-size: 5%;
+  box-shadow: none;
+}
+
+#greeting .menu {
+  width: 12em !important;
+}
+
+#header .menu {
+  width: 20em;
+}
+
+#header .menu,
+#header a.dropdown-toggle,
+#greeting .user > li:nth-of-type(3) a,
+#footer .heading,
+#footer a,
+#footer li {
+  color: #473b35;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+#footer a,
+#footer button {
+  color: #473b35;
+}
+
+#header .menu li a {
+  color: #473b35 !important;
+  border: none !important;
+  font-weight: normal !important;
+}
+
+#header .menu li {
+  border-bottom: none;
+}
+
+.home .primary {
+  margin: 1em 0.5em 1.5em;
+  min-height: 100px;
+}
+
+.primary .icon {
+  position: absolute;
+  margin-left: 0.5em;
+  top: 0;
+}
+
+.home .header h2 {
+  text-align: left;
+  border-bottom: 2px solid;
+  display: block;
+  margin-left: 150px;
+  font-family: "Jane Austen";
+}
+
+#header a,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus {
+  color: #473b35;
+}
+
+#header .heading a {
+  color: #af9a86;
+  font-size: 1.714em;
+  line-height: 1.75em;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a {
+  background: none;
+  color: #ddca9f;
+}
+
+html body .home .primary.header.module .icon a::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 52% !important;
+  top: -20px !important;
+  width: 140px !important;
+  height: 140px !important;
+  margin-left: -67px !important;
+  background-image: url("https://64.media.tumblr.com/7e61fc4191e8fe7e629fab28470c7387/5bcf7dbdeaf6a772-2f/s400x600/e5458a1a41ae301b9cf20a0d0533a727e0490b1c.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+.splash .module h3 {
+  border-bottom: 1px solid #c8c8c8;
+  color: #dcd1b2;
+  font-size: 1.714em;
+}
+
+.splash .news blockquote p:first-child {
+  padding-left: 105px;
+  background: url("https://64.media.tumblr.com/1980d9a6baeb0d589dd723f2174c49c5/cfb088a0093c8f64-cf/s1280x1920/ce8c2544599e8959d6f4b1263827b95f0330d9df.png");
+  background-size: 100px 80px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.social.module p {
+  padding-left: 83px;
+  background: url("https://64.media.tumblr.com/04042db04548cf81b4465c007aaf12c1/d715212533323a3d-17/s500x750/e60ba9a6cca933b019c24dd1d2d293b87c7e4793.png");
+  background-size: 65px 65px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.comment h4.byline {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.comment .userstuff {
+  padding-right: 67px;
+  padding-bottom: 50px;
+  background: url("https://64.media.tumblr.com/a69f35dc0c7e36b08d68548e86c5dbfd/58dfe1d018545f95-09/s640x960/fe4dd10f223387a7f060b3d3a0d89947792a884f.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: 74px 100px;
+}
+
+li.comment {
+  background: transparent;
+  border: 15px solid transparent;
+  border-image: url("https://64.media.tumblr.com/c8bc1367c4e14051ca6bcd7a06feeceb/d263b8ed2fd636f7-b4/s2048x3072/7bb0951573053dcf077469ae5d803413129c2226.png") 30 round;
+}
+
+.thread .even {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.LV_invalid {
+  border: 10px solid transparent;
+  border-image: url("https://64.media.tumblr.com/4a80d217efbcdea857d884177c5bcf4d/a2a882572698f5fa-da/s75x75_c1/cb69fa634185fe4f765db78c163629dc93743fc2.png") 30 stretch;
+  background: rgba(0, 0, 0, .30);
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  margin: 0em auto;
+  padding: 0em 0em;
+}
+
+form .notice,
+form ul.notes {
+  box-shadow: none !important;
+}
+
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited {
+  color: #a89a86;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  color: #ddca9f;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.actions label {
+  background: linear-gradient(180deg,rgba(37, 24, 13, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c8b79c;
+}
+
+a,
+a:link,
+a:visited:hover {
+  color: #a89a86;
+}
+
+a:visited {
+  color: #a89a86;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  background: #c8b79c;
+  border-color: #000;
+  color: #000;
+  box-shadow: none;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+#dashboard .current,
+.current a:visited {
+  background: rgba(221, 202, 159, .15);
+  box-shadow: none;
+  border-width: 5px;
+  border-image: url("https://64.media.tumblr.com/100184d18abc970c53595343711909dc/1a7ef6a6c4372628-c7/s400x600/bf4b04d57b322c154c13c1b67797c71558ac7960.jpg") 20% round;
+}
+
+#workskin p:first-child:first-letter,
+li.blurb .summary p:first-child:first-letter {
+  color: #ddca9f;
+  float: left;
+  font-family: Georgia, serif;
+  font-size: 70px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+#workskin {
+  border: 50px solid transparent;
+  border-image: url("https://64.media.tumblr.com/1bac181250fb43409e32ada7d2b71bdd/53c8f9b3ba9ca289-9d/s1280x1920/b817d6f9aac81b78af8bfcbf49ac5fdccaba8c8a.png") 25% round;
+}
+
+div.preface {
+  margin: 0;
+  border-bottom: 2px solid #000;
+}
+
+dl.meta {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+p.kudos {
+  padding-left: 8.3em;
+  background: url("https://64.media.tumblr.com/7ed91ebe51f466ec760ed0f4af0a615e/f545b16454839a2d-10/s1280x1920/8954b700ecfdd14dcae3dcfc2699005ab79f74dd.png");
+  background-size: 100px 112px;
+  background-repeat: no-repeat;
+  min-height: 112px;
+}
+
+#footer.region {
+  border-top: 5px solid #000;
+  background: url("https://64.media.tumblr.com/39ecbe9ccf694623b2b7229caa0396ab/1f46552f68f72b42-9e/s1280x1920/93efe69de6808c1a758ca9fe6ce8adbe8bbf9436.png");
+  background-size: contain;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+.splash .favorite li:nth-of-type(even) a {
+  background: linear-gradient(180deg,rgba(31, 22, 7, 1) 0%, rgba(57, 41, 19, 1) 100%);
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: linear-gradient(180deg,rgba(37, 24, 13, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.picture .header {
+  border-bottom: 1px solid #a89a86;
+}
+
+fieldset,
+fieldset fieldset {
+  background: transparent;
+  box-shadow: none;
+}
+
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  background: transparent;
+  border: 30px solid transparent;
+  border-image: url("https://64.media.tumblr.com/12cadc0c4f417faa81ad9441f908c7ab/f77b7658f49c8acc-4f/s2048x3072/6c1312feebc16d350e6a75ebd6a20cbd7477d659.png") 18% round;
+}
+
+.skins .primary .icon,
+.index .picture .icon {
+  background: url("https://64.media.tumblr.com/3f3d133265b3e67b14bc8324b2709f4e/7cfed4040bb0b381-93/s640x960/a72c576032d47ef3cf1553b2e8699027130d8a04.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tag .primary .icon {
+  background: url("https://64.media.tumblr.com/bdfa63828c721630e54e1c73191db3d4/02a5a06320a69c66-2c/s1280x1920/867538e6dc8027becbe408c1d000283d361110c1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.admin .primary .icon {
+  display: none;
+}
+
+fieldset,
+fieldset fieldset {
+  background-image: url("https://64.media.tumblr.com/88e129ee7cf62304e9310a10c63b552d/8ca0c6990a76aad7-8a/s1280x1920/1f5cd7fe7b8d6dbffd0593161d85d447450477d7.jpg");
+  background-repeat: repeat-y;
+}
+
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  padding: 0em;
+}
+
+fieldset.warnings {
+  margin: 0;
+  padding: 0;
+}
+
+.news.admin.home {
+  background: url("https://64.media.tumblr.com/b079bd961dfd0628333f1768e3a03f5d/02806509b7f30925-52/s1280x1920/114e6609518bb116e17f3e077864bb11d54ed1f9.png");
+  background-position-x: right;
+  background-position-y: 400px;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.module.news.group .userstuff {
+  width: 80%;
+  text-align: left;
+}
+
+#main.system.docs.about.region {
+  margin-top: 2em;
+  background: url("https://64.media.tumblr.com/1a8fe4a4b20053e8d3af08681260f2a1/e97f584870d312d6-3c/s1280x1920/5f3ea4f132f39027f0da7c10009ed72dad3f0b61.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+#main.system.docs.about.region {
+  padding-bottom: 20%;
+  margin-bottom: 2em;
+}
+
+.comment .icon .visitor {
+  background: url("https://64.media.tumblr.com/22ba893cb0f1bfae7890dd780e29d02d/463a436bddef7103-09/s640x960/f387f7bab1a6f518ca9f00773d98c76f6baebef4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.media-index .listbox {
+  background: url("https://64.media.tumblr.com/5d6f556424e503649f2074ff5083612e/6a33c0b8f451a419-31/s400x600/3208e30fd95655db57e9203d7dc9f9bfcab9b0b9.jpg");
+  background-size: 30%;
+  border: 2px solid #000;
+  box-shadow: none;
+}
+
+.media-index .listbox h3.heading a {
+  color: #ddca9f;
+  font-weight: bold;
+  text-shadow: 3px 3px 10px #000;
+}
+
+.profile-show.dashboard.region dl.meta {
+  border: none;
+  box-shadow: none;
+  background: url("https://64.media.tumblr.com/c2f47314beb9a78aa5d791d4ef244492/854d50670bb476f8-3d/s1280x1920/d216606632df5946afca4f8fd36fddf272d0eb0c.png");
+  background-position-x: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+.works-show.region div.wrapper {
+  border: 1px #ddca9f;
+  box-shadow: none;
+  background: url("https://64.media.tumblr.com/e14c27d5914c8ac5e724b8b44597aa9e/99ac942a0471f85b-7a/s1280x1920/439a8211d0ecefa6536b9f51b0c63de92fde09a0.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+.toggled form,
+.dynamic form {
+  border-width: 2;
+  border-color: #ddca9f;
+}
+
+#dashboard,
+#dashboard.own {
+  border-bottom: 10px solid #000;
+  border-top: 10px solid #000;
+}
+
+.dashboard .own {
+  border: 2px solid transparent;
+  border-color: #000;
+  background-image: url("https://64.media.tumblr.com/c5bbc0da08d9feceed58873f6c0242c2/531d887a0981594d-7a/s1280x1920/ea27874eba92d0e8e4ce6c5344bad379adc30a6e.png");
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+#dashboard ul {
+  border-top: 2px solid #000;
+}
+
+#dashboard a,
+#dashboard span {
+  color: #d6caa5;
+}
+
+.own {
+  background: #e2d9bf;
+}
+
+li.blurb {
+  border: 9px solid transparent;
+  border-image: url("https://64.media.tumblr.com/bb2620218a6f9b8321009862f67853f8/abc6fa0cee5f7665-69/s400x600/5e178c783e78d6b9532ea8eec77d35d5642ed220.png") 20% round;
+  background-color: rgba(0, 0, 0, 0.20);
+}
+
+.blurb h4 a:link,
+.blurb h4 img {
+  color: #d6caa5;
+}
+
+.users-show.dashboard.region .listbox,
+.listbox {
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: none;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  clear: right;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1.5px solid #000;
+  padding: 0;
+  margin: 0.643em auto;
+  overflow: hidden;
+}
+
+.users-show.dashboard.region .listbox > .heading,
+.listbox > .heading {
+  color: #a89a86;
+}
+
+.listbox .index {
+  box-shadow: none;
+}
+
+.listbox > .heading,
+.listbox .heading a:visited {
+  color: #a89a86;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: rgba(0, 0, 0, .5);
+  border: 6px solid transparent;
+  border-image: url("https://64.media.tumblr.com/4a80d217efbcdea857d884177c5bcf4d/a2a882572698f5fa-da/s75x75_c1/cb69fa634185fe4f765db78c163629dc93743fc2.png") 30 stretch;
+  box-shadow: none;
+}
+
+span.question {
+  background: #dcd1b2;
+  border: 2px solid #ab3740;
+  box-shadow: none;
+}
+
+#dashboard.own {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-image: url("https://64.media.tumblr.com/3e43a478aa1652fd49359cdd97bf1938/31a095ff88caab74-cc/s1280x1920/c496e239974115aab88119ecc8a09e1b5ea97da2.jpg") 100 round;
+}
+
+.toggled form,
+.dynamic form {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+div.dynamic {
+  background: transparent;
+}
+
+#header.region.collection h2 {
+  background: url("https://64.media.tumblr.com/9dff111023a477e67038c546f5cf972e/546a866fe8dedca2-12/s1280x1920/49a362bcac846d268b72baadf7b08287c8047de9.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  color: #dcd1b2;
+  text-shadow: 0px 0px 8px #000;
+}
+
+#dashboard a:hover,
+.statistics .index li:nth-of-type(2n),
+dl.index dd,
+.reading h4.viewed {
+  background: rgba(0, 0, 0, .5);
+}
+
+#dashboard a:hover {
+  color: #ccbb9f;
+}
+
+#stat_chart svg {
+  filter: sepia(40%) contrast(90%);
+  border: 10px solid transparent;
+  border-image: url("https://64.media.tumblr.com/4a80d217efbcdea857d884177c5bcf4d/a2a882572698f5fa-da/s75x75_c1/cb69fa634185fe4f765db78c163629dc93743fc2.png") 30 round;
+}
+
+.stats-index.dashboard.region .actions.module {
+  margin-top: 2em;
+}
+
+dl.statistics.meta.group {
+  background: url("https://64.media.tumblr.com/ab701cfe7572b5a910c921ce36496196/99cb45da7cc3d9e4-8e/s1280x1920/d16bae3856380ac4c3e703f07f71b7a05a82c07a.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 250px 232px;
+}
+
+.userstuff h3 {
+  font-weight: 500;
+  padding: 0.125em;
+  border-bottom: 0.25em double #000;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px 0px;
+  border-radius: 5px;
+}
+
+.commas li:after {
+  content: "";
+}
+
+.warnings .tag {
+  background: #1f1607;
+  color: #ccbb9f !important;
+  border: 1px solid #000;
+}
+
+.warnings .tag:hover {
+  background: #ccbb9f !important;
+  color: #1f1607 !important;
+  border: 1px solid #785d43;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "🃏🃏🃏 ";
+}
+
+.relationships .tag {
+  background: #33240a;
+  color: #ccbb9f !important;
+  border: 1px solid #000;
+}
+
+.relationships .tag:hover {
+  background: #ccbb9f !important;
+  color: #33240a !important;
+  border: 1px solid #785d43;
+}
+
+.characters .tag {
+  background: #614c29;
+  color: #ccbb9f !important;
+  border: 1px solid #000;
+}
+
+.characters .tag:hover {
+  background: #ccbb9f !important;
+  color: #614c29 !important;
+  border: 1px solid #785d43;
+}
+
+.freeforms .tag {
+  background: #453417;
+  color: #ccbb9f !important;
+  border: 1px solid #000;
+}
+
+.freeforms .tag:hover {
+  background: #c8b79c !important;
+  color: #453417 !important;
+  border: 1px solid #785d43;
+}
+
+.favorite.module.odd {
+  background: url("https://64.media.tumblr.com/3fa2ffe7921457f361b9935edbbc05f7/7db9d5c687236825-ce/s1280x1920/c0edc2350a933a988ac89e844055124f294ed57a.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+.resp-sharing-button--twitter,
+.resp-sharing-button--tumblr {
+  background: #366c89 !important;
+  border: 1px solid #366c89 !important;
+  border-radius: 5px;
+}
+
+.admin.userstuff ul:nth-of-type(1) {
+  background: url("https://64.media.tumblr.com/a69f35dc0c7e36b08d68548e86c5dbfd/58dfe1d018545f95-09/s640x960/fe4dd10f223387a7f060b3d3a0d89947792a884f.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 150px 193px;
+  background-repeat: no-repeat;
+}
+
+a.tag {
+  color: #ddca9f;
+}
+
+body,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown {
+  background: rgba(0, 0, 0, .2);
+}
+
+body,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown {
+  color: #ccbb9f;
+}
+
+.toggled form,
+.dynamic form {
+  border: 2px solid #ddca9f;
+}
+
+.required,
+.error,
+.alert.flash {
+  color: #ccbb9f;
+}
+
+fieldset,
+fieldset fieldset {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 4px solid #000;
+  box-shadow: none !important;
+}
+
+input,
+textarea {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
+  border: 1px solid #000;
+  box-shadow: none;
+}
+
+input,
+textarea {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
+  border: 2px solid #000;
+  box-shadow: none;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #000;
+  color: #ddca9f;
+  border: 1px solid #ccbb9f;
+  border-radius: 4px;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #a89a86;
+  color: #000;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background: rgba(0, 0, 0, .5);
+}
+
+form dd.required {
+  color: #a89a86;
+}
+
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active {
+  border: 1px solid #cec18d;
+}
+
+.LV_invalid:before {
+  border-color: #cec18d transparent;
+}
+
+.LV_invalid {
+  color: #cec18d;
+}
+
+#modal {
+  background: rgba(0, 0, 0, .8);
+  border: 10px solid #000;
+}
+
+span.symbol {
+  color: #33240a;
+}
+
+textarea:focus {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: #a89a86;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #a89a86 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+textarea::-webkit-scrollbar {
+  width: 14px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #7e7157;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #a19373;
+  border: 12px;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #ddca9f;
+}
+
+.post .required .warnings,
+dd.required {
+  font-weight: normal;
+  color: #a89a86;
+}
+
+form dt {
+  border-bottom: 1px solid #000;
+}
+
+.tox-tinymce {
+  border: 1px solid #ddca9f;
+}
+
+input[type="submit"]:hover {
+  background: #c8b79c !important;
+  color: #000 !important;
+}
+
+.filters .expander {
+  color: #c8b79c;
+}
+
+.javascript {
+  background-image: url("https://64.media.tumblr.com/88e129ee7cf62304e9310a10c63b552d/8ca0c6990a76aad7-8a/s1280x1920/1f5cd7fe7b8d6dbffd0593161d85d447450477d7.jpg");
+}
+
+input:-internal-autofill-selected {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+body,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown {
+  font-family: "Garamond", "Book Antiqua", "Palatino, serif";
+}
+
+.autocomplete,
+.ui-autocomplete {
+  box-sizing: border-box;
+  min-height: 2.5em;
+}
+
+ul.ui-autocomplete {
+  background: #0f0a05 !important;
+  border: 2px solid #785d43 !important;
+  box-shadow: 0 0 10px rgba(0,0,0,.8) !important;
+}
+
+ul.ui-autocomplete li {
+  background: transparent !important;
+}
+
+ul.ui-autocomplete li div,
+ul.ui-autocomplete li a,
+ul.ui-autocomplete .ui-menu-item-wrapper {
+  color: #d6caa5 !important;
+  background: transparent !important;
+}
+
+ul.ui-autocomplete .ui-state-active,
+ul.ui-autocomplete .ui-state-focus,
+ul.ui-autocomplete .ui-menu-item-wrapper:hover {
+  background: #c8b79c !important;
+  color: #000 !important;
+}
+
+.autocomplete div.dropdown ul {
+  color: #d6caa5;
+  background: #1f1607;
+  box-shadow: none !important;
+}
+
+.autocomplete div.dropdown ul {
+  border: 1px solid #ddca9f;
+}
+
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected {
+  background: #ddca9f;
+  color: #000;
+}
+
+.autocomplete .notice,
+.autocomplete .help,
+.ui-helper-hidden-accessible,
+.search .help {
+  color: #a89a86 !important;
+}
+
+.search [role="tooltip"] {
+  background: #000;
+  color: #c8b79c;
+  border: 1px solid #c8b79c;
+}
+
+a.tag:hover,
+.listbox .heading a.tag:visited:hover {
+  background: rgba(0,0,0,0.8);
+  color: #c8b79c;
+}
+
+.favorite a.tag:hover,
+.favorite a.tag:focus {
+  color: #000 !important;
+  background: rgba(168, 154, 134, 1) !important;
+  border-color: #ddca9f !important;
+}
+
+.draft {
+  border: 2px dashed #c8b79c;
+}
+
+.own,
+.draft,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  background: #0000;
+}
+
+.caution {
+  color: #c8b79c;
+}
+
+.required-tags .rating-notrated,
+.required-tags .rating-general-audience,
+.required-tags .rating-explicit,
+.required-tags .rating-mature,
+.required-tags .rating-teen,
+.required-tags .category-femslash,
+.required-tags .category-gen,
+.required-tags .category-slash,
+.required-tags .category-none,
+.required-tags .category-het,
+.required-tags .category-multi,
+.required-tags .category-other,
+.required-tags .complete-no,
+.required-tags .complete-yes,
+.required-tags .warning-yes,
+.required-tags .warning-no,
+.required-tags .warning-choosenotto,
+.required-tags .external-work,
+.status .private .text,
+.status .public,
+.status .hidden,
+.status .rec,
+.status .count,
+.index .mystery .icon,
+.index .tag .icon,
+.index .tagset .icon,
+.abbreviated .icon .visitor,
+.abbreviated .icon .anonymous,
+.admin .primary .icon,
+.tagset .primary .icon,
+.tag .primary .icon,
+a.rss span,
+#symbols-key dl img,
+#bookmark-symbols-key img,
+img[src$="/images/skins/iconsets/default/icon_user.png"],
+img[src$="/images/skins/iconsets/default/icon_collection.png"],
+img[src$="/images/lockblue.png"] {
+  background-image: url("https://zerafinacss.github.io/ao3/imageset/bw.png");
+  background-size: 200px 835px;
+}
+
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25px 0 0 25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-notrated.png"],
+img[src$="/images/skins/iconsets/default/category-none.png"],
+img[src$="/images/skins/iconsets/default/warning-no.png"] {
+  background-position: -150px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
+  background-position: -50px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-teen.png"] {
+  background-position: 0px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-mature.png"] {
+  background-position: -75px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
+  background-position: -25px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/category-femslash.png"] {
+  background-position: -25px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-het.png"] {
+  background-position: -75px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-gen.png"] {
+  background-position: -50px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-multi.png"] {
+  background-position: -100px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-other.png"] {
+  background-position: -125px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
+  background-position: -125px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-yes.png"] {
+  background-position: -150px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
+  background-position: -75px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/complete-no.png"] {
+  background-position: -100px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/complete-yes.png"] {
+  background-position: -175px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
+  background-position: -100px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
+  background-position: -125px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
+  background-position: -175px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
+  background-position: -150px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/icon_user.png"],
+img[src$="/images/skins/iconsets/default/icon_collection.png"],
+img[src$="/images/lockblue.png"] {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 100px 0 0 100px;
+  background-position: 0px -75px;
+}
+
+.index:not(.comment) .abbreviated img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 75px 0 0 75px;
+  background-position: 0px -375px;
+}
+
+.index:not(.comment) img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 55px 0 0 55px;
+  background-position: 0px -525px;
+}
+
+#greeting img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 1.786em 0 0 1.786em;
+  background-position: 0 -19px;
+  background-size: 201% !important;
+}
+
+img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  padding: 100px 0 0 100px;
+  background-position: -100px -175px;
+}
+
+.index img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  padding: 55px 0 0 55px;
+  background-position: -55px -525px;
+}
+
+img[src$="/images/lockblue.png"] {
+  padding: 15px 0 0 15px;
+  background-position: -155px -305px;
+}
+
+.site-skin-metadata {
+  content: "==================================================
+
+  - Skin:         Replace the AO3 Icons - mobile fix
+  - Author:       ZerafinaCSS [https://www.tumblr.com/zerafinacss]
+  - Instructions: https://ao3.org/works/54831748
+  - Repository:   https://github.com/ZerafinaCSS/Replace-the-AO3-Icons
+  - License:      GPL-3.0
+  - Updated:      2026-Mar-08 19:16 UTC (no code changes)
+
+  ==========================================================";
+}
+
+#greeting img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  background-position: 0 -16.5px;
+}
+
+.comment img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 55px 0 0 55px !important;
+  background-position: 0px -525px !important;
+}
