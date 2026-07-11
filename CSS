@@ -14,7 +14,7 @@ button {
 blockquote {
   color: #564133;
 }
-x
+
 #header .dropdown:hover .menu {
   background: url("https://64.media.tumblr.com/36fcc4454ed9e4612ac0efef61e9088c/32044804a270054e-43/s1280x1920/ec7a61ddaa9b64f26d5fd5947036ca65dfe78b94.jpg");
 }
@@ -437,6 +437,16 @@ fieldset fieldset dl dl,
 dd.hideme,
 form blockquote.userstuff {
   background: transparent;
+}
+
+form dl {
+  background-image: url("https://64.media.tumblr.com/112a52c50b3f2f096c7c2c45cb36bafe/d7cd93cf9a94a170-ef/s1280x1920/d0e8f44a62ad0fe7704c8f8265dd4053a42635f8.png");
+  background-size: 105%;
+  background-repeat: repeat-y;
+  border: 8px solid transparent;
+  border-image: url("https://64.media.tumblr.com/8d49f1e1ed812438cb70b58b5678db33/5bc4710f3a76712c-54/s400x600/370337523bb190a874ad676f04c763e1348c5ad6.png") 18% round;
+  box-shadow: none;
+  background-color: transparent;
 }
 
 fieldset.warnings {
