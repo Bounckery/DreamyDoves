@@ -14,7 +14,7 @@ button {
 blockquote {
   color: #564133;
 }
-
+x
 #header .dropdown:hover .menu {
   background: url("https://64.media.tumblr.com/36fcc4454ed9e4612ac0efef61e9088c/32044804a270054e-43/s1280x1920/ec7a61ddaa9b64f26d5fd5947036ca65dfe78b94.jpg");
 }
@@ -615,8 +615,8 @@ a.tag:hover,
 
 .favorite a.tag:hover,
 .favorite a.tag:focus {
-  color: #473b35 !important;
-  background: #b89e8c !important;
+  color: #717564 !important;
+  background: #D6C7BA !important;
   border: 1px solid #473b35 !important;
 }
 
@@ -1005,14 +1005,15 @@ ul.ui-autocomplete .ui-menu-item-wrapper {
 }
 
 .resp-sharing-button--bluesky {
-  background-color: #9AB3B5 !important;
-  border-color: #495961 !important;
+  background-color: #7A9496 !important;
+  border-color: #485454 !important;
 }
 
 .resp-sharing-button--bluesky:hover,
 .resp-sharing-button--bluesky:active {
   background-color: #faf7e9 !important;
   border-color: #9AB3B5 !important;
+  color: #473b35 !important;
 }
 
 #dashboard .secondary {
