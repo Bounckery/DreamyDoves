@@ -447,6 +447,7 @@ form dl {
   border-image: url("https://64.media.tumblr.com/8d49f1e1ed812438cb70b58b5678db33/5bc4710f3a76712c-54/s400x600/370337523bb190a874ad676f04c763e1348c5ad6.png") 18% round;
   box-shadow: none;
   background-color: transparent;
+  padding: 0.5em;
 }
 
 fieldset.warnings {
@@ -663,7 +664,7 @@ a.tag:hover,
 }
 
 .news.admin.home {
-  background: url("https://64.media.tumblr.com/b079bd961dfd0628333f1768e3a03f5d/02806509b7f30925-52/s1280x1920/114e6609518bb116e17f3e077864bb11d54ed1f9.png");
+  background: url("https://64.media.tumblr.com/1422db608a3df1c691573d09136e506e/53d04496b58034f7-e3/s400x600/77ae0751c00f1f7c3e155cf0871121c0603f08f5.png");
   background-position-x: right;
   background-position-y: 400px;
   background-repeat: no-repeat;
@@ -724,7 +725,7 @@ a.tag:hover,
 
 .toggled form,
 .dynamic form {
-  border: 2px solid #ddca9f;
+  border: 2px dashed #6d5f52;
 }
 
 #dashboard,
