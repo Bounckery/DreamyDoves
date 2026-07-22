@@ -324,6 +324,10 @@ li.comment {
   border-image: url("https://64.media.tumblr.com/eb83ef9685e37205141ce08c294707bd/fac18e0428cfe95d-f5/s400x600/b5d03b29575882b16f96de33862ac90d6223d8b6.png") 20% round;
 }
 
+div.comment {
+  border: none;
+}
+
 .thread .even {
   background-image: url("https://64.media.tumblr.com/80bfab0e87f11eb274b492e84e8412a9/78deb12c7217f076-b6/s1280x1920/00e36e2bc5a51ceef435806dcf5325f67393fb0e.png");
   background-size: cover;
@@ -342,6 +346,16 @@ li.comment {
   border-image-width: 45px;
 }
 
+.bookmark .user {
+  border: 1px dashed #838771;
+}
+
+.userstuff p,
+.userstuff details {
+  font-size: 16px;
+  font-family: Garamond, "Book Antiqua", Palatino, serif !important;
+}
+
 div.preface {
   margin: 0;
   border-bottom: 2px solid #9f9885;
@@ -349,7 +363,7 @@ div.preface {
 
 dl.meta {
   border: none;
-  background-image: url("https://64.media.tumblr.com/61656449c9f7fdbc73a491af68563117/9f92697119168201-ae/s1280x1920/6a7fe8a65d6fe59dcc27ea05f5383134f3164e12.png");
+  background-image: url("https://64.media.tumblr.com/eb41f3b6dbe39e222cbca45e07c36c54/9a3ce6a44317ec2a-88/s1280x1920/a4129b665b78073e87994471d62a110b73868250.png");
   background-position: 100% 40%;
   background-size: cover;
   margin-top: 2em;
@@ -728,6 +742,10 @@ a.tag:hover,
   border: 2px dashed #6d5f52;
 }
 
+.dynamic form {
+  background-image: url("https://64.media.tumblr.com/112a52c50b3f2f096c7c2c45cb36bafe/d7cd93cf9a94a170-ef/s1280x1920/d0e8f44a62ad0fe7704c8f8265dd4053a42635f8.png");
+}
+
 #dashboard,
 #dashboard.own {
   border-top: 18px solid transparent;
@@ -780,7 +798,8 @@ li.blurb {
   border-image: url("https://64.media.tumblr.com/bb2620218a6f9b8321009862f67853f8/abc6fa0cee5f7665-69/s400x600/5e178c783e78d6b9532ea8eec77d35d5642ed220.png") 20% round;
   border-image-slice: 20 25;
   background-image: url("https://64.media.tumblr.com/008b80d10665780d157e2051ff7b6738/51250efa9f4c0463-68/s1280x1920/f5a27eb9561f9bbac4c250d268dc989c10766662.png");
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: repeat-y;
 }
 
 .blurb h4 a:link,
@@ -1037,6 +1056,14 @@ input[type="radio"] + label,
 input[type="checkbox"] + label {
   padding-left: 1em;
   margin-left: 0.5em;
+}
+
+span.offered,
+.replied,
+.nominations .approved {
+  color: #9f9885;
+  background: #e4dfce;
+  border: 1px solid #473b35;
 }
 
 .site-skin-metadata {
