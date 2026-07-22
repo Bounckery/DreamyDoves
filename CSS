@@ -744,6 +744,8 @@ a.tag:hover,
 
 .dynamic form {
   background-image: url("https://64.media.tumblr.com/112a52c50b3f2f096c7c2c45cb36bafe/d7cd93cf9a94a170-ef/s1280x1920/d0e8f44a62ad0fe7704c8f8265dd4053a42635f8.png");
+  background-size: 100%;
+  background-repeat: repeat-y;
 }
 
 #dashboard,
